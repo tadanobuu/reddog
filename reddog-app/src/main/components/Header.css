@@ -1,0 +1,50 @@
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+em{
+    margin-right: 2px;
+}
+
+.havePt{
+    font-size: 13px;
+    text-align: left;
+}
+
+.nextChar{
+    font-size: 13px;
+    text-align: center;
+}
+
+.btn{
+    border: none;
+    background-color: #e5e7eb;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.xbutton{
+    color: white;
+}
+
+.xbutton:hover{
+    cursor: pointer;
+}
+.pt{
+    margin-left: 1px;
+    margin-right: 1px;
+}

@@ -1,0 +1,22 @@
+
+.buttons{
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 100px;
+    width: 70%;
+}
+
+.nextGame{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.toNextGame{
+    height: 30px;
+    margin-top: 5px;
+    background: black;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: solid 4px navy;
+    border-radius: 3px;
+}

@@ -1,0 +1,13 @@
+
+.message3{
+    display: flex;
+    height: 23px;
+    width: 60px;
+    margin: 0 auto;
+    font-weight: 900;
+    text-align: center;
+}
+
+.result{
+    margin: 0 auto;   
+}

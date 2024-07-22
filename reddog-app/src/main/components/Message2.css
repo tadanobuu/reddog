@@ -1,0 +1,13 @@
+
+.message2{
+    display: flex;
+    height: 40px;
+    width: 90px;
+    margin: 0 auto;
+    font-weight: 900;
+    align-items: center;
+}
+
+.odds{
+    margin: 0 auto;
+}

@@ -1,0 +1,43 @@
+
+.raizeText{
+    margin-top: 5px;
+    height: 10px;
+    font-weight: bold;
+}
+
+.standOrRaize{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stand{
+    margin-left: 10px;
+    height: 30px;
+    background: #a35be7;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+.stand:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    border-bottom: none;
+}
+
+.raize{
+    margin-right: 10px;
+    height: 30px;
+    background: #668ad8;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+.raize:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    border-bottom: none;
+}

@@ -1,0 +1,26 @@
+
+.img{
+    position: relative;
+    margin-top: 40px;
+}
+
+.dog{
+    width: 100%;
+    height: 25vb;
+    object-fit: cover;
+    text-align: center;
+    background-color: white;
+}
+
+.dogName{
+    position: absolute;
+    margin: 0;
+    top: 65%;
+    left: 43%;
+    width: 10%;
+    font-size: 20%;
+    border: solid 2px orange;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+}

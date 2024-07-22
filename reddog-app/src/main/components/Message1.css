@@ -1,0 +1,17 @@
+
+.textArea{
+    display: flex;
+    height: 50px;
+    width: 60px;
+    margin: 0 auto;
+    font-weight: 900;
+    text-align: center;
+}
+
+.text2{
+    margin-left: 10px;
+}
+
+.text3{
+    margin-left: 20%;
+}

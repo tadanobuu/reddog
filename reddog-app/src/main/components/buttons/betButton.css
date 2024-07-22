@@ -1,0 +1,118 @@
+
+.betButtons{
+    margin: 0 auto;
+    text-align: center;
+    height: 40px;
+}
+
+.add10{
+    margin-right: 10px;
+    height: 30px;
+    background: #668ad8;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+.add10:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    border-bottom: none;
+}
+
+.minus10{
+    margin-right: 10px;
+    height: 30px;
+    background: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+.minus10:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    border-bottom: none;
+}
+
+.add100{
+    margin-right: 10px;
+    height: 30px;
+    background: #668ad8;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+.add100:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    border-bottom: none;
+}
+
+.minus100{
+    margin-right: 10px;
+    height: 30px;
+    background: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+.minus100:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    border-bottom: none;
+}
+
+.add1000{
+    margin-right: 10px;
+    height: 30px;
+    background: #ccd450;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+.add1000:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    border-bottom: none;
+}
+
+.minus1000{
+    margin-right: 10px;
+    height: 30px;
+    background: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+.minus1000:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    border-bottom: none;
+}
+
+.decide{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.decideButton{
+    margin-right: 20px;
+    height: 30px;
+    margin-top: 5px;
+    background: black;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}

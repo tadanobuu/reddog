@@ -1,0 +1,46 @@
+
+.guidance{
+    position: relative;
+    background: #ec5757;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.guidance:after{
+    border: solid transparent;
+    content:'';
+    height:0;
+    width:0;
+    pointer-events:none;
+    position:absolute;
+    border-color: rgba(0, 225, 255, 0);
+    border-top-width:10px;
+    border-bottom-width:10px;
+    border-left-width:10px;
+    border-right-width:10px;
+    margin-left: -10px;
+    border-bottom-color:#ec5757;
+    bottom:100%;
+    left:50%;
+}
+
+.HowtoIcon{
+    border: solid 1px;
+    padding: 2px;
+}
+
+.HowtoIcon > .MuiSvgIcon-root{
+    position:relative;
+    top: 3px;
+}
+
+.dogIcon > .MuiSvgIcon-root{
+    position:relative;
+    top: 3px;
+}
