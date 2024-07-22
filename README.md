@@ -24,8 +24,8 @@ https://reddog-app-caccb.web.app/
 　犬のイラストで使用
 
 ・いらすとや  
-  https://www.irasutoya.com/  
-  カード(トランプ)のイラストで使用
+　https://www.irasutoya.com/  
+　カード(トランプ)のイラストで使用
 
 # 機能一覧
 ・ゲーム「レッドドッグ」  
