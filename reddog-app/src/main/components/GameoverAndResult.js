@@ -1,4 +1,3 @@
-import React from 'react'
 import "./GameoverAndResult.css"
 import { useSelector } from 'react-redux'
 

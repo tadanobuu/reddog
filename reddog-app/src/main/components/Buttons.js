@@ -1,4 +1,3 @@
-import React from 'react';
 import "./Button.css";
 import BetButton from './buttons/betButton';
 import RaizeButton from './buttons/raizeButton';

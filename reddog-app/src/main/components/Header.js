@@ -1,4 +1,3 @@
-import React from 'react'
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import XIcon from '@mui/icons-material/X';
 import "./Header.css";

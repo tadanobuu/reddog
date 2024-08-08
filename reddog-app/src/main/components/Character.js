@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Character.css"
 import redDog from "../dogs/red.png"
 import purpleDog from "../dogs/purple.png"
