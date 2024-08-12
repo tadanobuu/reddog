@@ -20,7 +20,7 @@ https://reddog-app-caccb.web.app/
 ・React  
 ・Redux Toolkit  
 ・Firebase  
-　・Hosting 
+　・Hosting  
 ・Tailwind CSS
 
 # 使用したフリー素材
