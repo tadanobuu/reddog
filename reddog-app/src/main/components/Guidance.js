@@ -8,7 +8,7 @@ const Guidance = () => {
             <p>初めての人は<em className='HowtoIcon'><MenuBookIcon /></em>を押すﾜﾝ!</p>
             <p>持ってるポイントによって僕の色が変わるﾜﾝ!</p>
             <p>持ち点が0になるまで何度も挑戦ができるﾜﾝ!</p>
-            <p>いっぱい遊んでほしいﾜﾝ<em className='dogIcon'><PetsIcon /></em></p>
+            <p className="lastMessage">いっぱい遊んでほしいﾜﾝ<em className='dogIcon'><PetsIcon /></em></p>
         </div>
     )
 }

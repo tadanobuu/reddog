@@ -2,7 +2,8 @@
 .guidance{
     position: relative;
     background: #ec5757;
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 90%;
     margin: 0 auto;
     text-align: center;
@@ -30,14 +31,14 @@
     left:50%;
 }
 
-.HowtoIcon{
-    border: solid 1px;
-    padding: 2px;
+.lastMessage{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .HowtoIcon > .MuiSvgIcon-root{
     position:relative;
-    top: 3px;
+    padding-left: 1px;
 }
 
 .dogIcon > .MuiSvgIcon-root{

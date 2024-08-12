@@ -10,6 +10,7 @@ import "./Main.css"
 import Message3 from './components/Message3'
 import Message4 from './components/Message4'
 import Guidance from './components/Guidance'
+import SideManu from './components/SideManu'
 
 const Main = ({ setPage }) => {
 
@@ -22,31 +23,36 @@ const Main = ({ setPage }) => {
     }
 
     return (
-        <div className='main'>
-            <Header setPage={setPage} />
-            <Character />
-            {!noGuidance ? 
-                <div className='table'>
-                    <Guidance />
-                    <div className='clearGuidance'>
-                        <button className='clearButton' onClick={() => clearButtonHandler()}>
-                            ゲームを始める
-                        </button>
+        <div className='w-full grid md:grid-cols-2 gap-8'>
+            <div>
+                <Header setPage={setPage} />
+                <Character />
+                {!noGuidance ? 
+                    <div className='bg-table-color border-4 border-black' style={{"borderRadius": "60px"}}>
+                        <Guidance />
+                        <div className='clearGuidance'>
+                            <button className='clearButton' onClick={() => clearButtonHandler()}>
+                                ゲームを始める
+                            </button>
+                        </div>
                     </div>
-                </div>
-                :
-                <>
-                <div className='table'>
-                    <Message1 />
-                    <Message4 />
-                    <Cards />
-                    <Message2 />
-                    <Message3 />
-                    <BetPointDisp />
-                </div>
-                <Buttons /> 
-                </>
-            }
+                    :
+                    <>
+                    <div className='bg-table-color border-4 border-black' style={{"borderRadius": "60px"}}>
+                        <Message1 />
+                        <Message4 />
+                        <Cards />
+                        <Message2 />
+                        <Message3 />
+                        <BetPointDisp />
+                    </div>
+                    <Buttons /> 
+                    </>
+                }
+            </div>
+            <div className='hidden md:block mt-10'>
+                <SideManu />
+            </div>
         </div>
     )
 }

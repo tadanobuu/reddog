@@ -65,7 +65,7 @@ const Header = ({ setPage }) => {
                 </div>
             }
             <div className='icon'>
-                <button className='btn' onClick={() => setPage(false)}><MenuBookIcon /></button>
+                <button className='menuBtn' onClick={() => setPage(false)}><MenuBookIcon /></button>
                 <a className='xbutton' href={'http://twitter.com/share?url=https://reddog-app-caccb.web.app/&text=' + (totalPoint) + 'pt持っています！%20%23レッドドッグ%20'}><XIcon/></a>
             </div>
         </div>

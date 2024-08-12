@@ -5,7 +5,7 @@ import TrunButton from './buttons/trunButton';
 import { useDispatch, useSelector } from 'react-redux';
 import { win, lose, resetBetPoint } from "../../features/cart/PointSlice";
 import { clearGame } from '../../features/game/GameSlice';
-import { gameResult } from '../../features/result/ResultSlice';
+import { gameHistory, gameResult } from '../../features/result/ResultSlice';
 import GameoverAndResult from './GameoverAndResult';
 import { betTimetoTrue, buttonsReset, cardOpen } from '../../features/buttons/ButtonsSlice';
 
@@ -13,12 +13,11 @@ const Buttons = () => {
 
   const dispatch = useDispatch();
   const { isWin, odds, isConsecutive, isPair } = useSelector((store) => store.game);
-  const { point, betPoint, winPoint } = useSelector((store) => store.point);
+  const { point, betPoint } = useSelector((store) => store.point);
   const { betTime, chooseRaise, trunCard } = useSelector((store) => store.buttons);
 
   const reset = () => {
     dispatch(buttonsReset());
-    dispatch(gameResult(point + winPoint));
     dispatch(resetBetPoint());
     dispatch(clearGame());
   }
@@ -27,6 +26,7 @@ const Buttons = () => {
     dispatch(betTimetoTrue());
     dispatch(win(odds));
     dispatch(gameResult());
+    dispatch(gameHistory("draw"));
     dispatch(resetBetPoint());
     dispatch(clearGame());
   }
@@ -36,6 +36,8 @@ const Buttons = () => {
     setTimeout(() => {
       isWin ? dispatch(win(odds)) : dispatch(lose());
       dispatch(cardOpen());
+      dispatch(gameResult(isWin ? point + (odds * betPoint) : 0));
+      dispatch(gameHistory(isWin ? odds > 1 ? "win" : "draw" : "lose"));
     }, 200)
   }
 

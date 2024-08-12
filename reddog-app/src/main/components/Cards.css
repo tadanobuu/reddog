@@ -1,9 +1,4 @@
 
-.cards{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 .card1{
     width: 100px;

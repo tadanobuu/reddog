@@ -8,6 +8,7 @@
 .add10{
     margin-right: 10px;
     height: 30px;
+    width: 50px;
     background: #668ad8;
     color: #FFFFFF;
     border: none;
@@ -24,6 +25,7 @@
 .minus10{
     margin-right: 10px;
     height: 30px;
+    width: 50px;
     background: #FF0000;
     color: #FFFFFF;
     border: none;
@@ -40,6 +42,7 @@
 .add100{
     margin-right: 10px;
     height: 30px;
+    width: 50px;
     background: #668ad8;
     color: #FFFFFF;
     border: none;
@@ -56,6 +59,7 @@
 .minus100{
     margin-right: 10px;
     height: 30px;
+    width: 50px;
     background: #FF0000;
     color: #FFFFFF;
     border: none;
@@ -72,6 +76,7 @@
 .add1000{
     margin-right: 10px;
     height: 30px;
+    width: 50px;
     background: #ccd450;
     color: #FFFFFF;
     border: none;
@@ -88,6 +93,7 @@
 .minus1000{
     margin-right: 10px;
     height: 30px;
+    width: 50px;
     background: #FF0000;
     color: #FFFFFF;
     border: none;
@@ -109,6 +115,7 @@
 .decideButton{
     margin-right: 20px;
     height: 30px;
+    width: 50px;
     margin-top: 5px;
     background: black;
     color: #FFFFFF;

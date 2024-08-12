@@ -15,7 +15,7 @@ const Cards = () => {
   }
 
   return (
-    <div className='cards'>
+    <div className='flex place-content-around'>
       <img 
         src={card1Url}
         alt='card1'

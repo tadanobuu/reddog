@@ -3,6 +3,7 @@
     margin-top: 5px;
     height: 10px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .standOrRaize{
@@ -13,6 +14,7 @@
 .stand{
     margin-left: 10px;
     height: 30px;
+    width: 70px;
     background: #a35be7;
     color: #FFFFFF;
     border: none;
@@ -29,6 +31,7 @@
 .raize{
     margin-right: 10px;
     height: 30px;
+    width: 70px;
     background: #668ad8;
     color: #FFFFFF;
     border: none;

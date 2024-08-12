@@ -26,22 +26,22 @@ em{
     text-align: center;
 }
 
-.btn{
+.menuBtn{
     border: none;
-    background-color: #e5e7eb;
-    margin-right: 10px;
 }
 
-.btn:hover{
+.menuBtn:hover{
     color: red;
     cursor: pointer;
 }
 
 .xbutton{
     color: white;
+    margin-left: 10px;
 }
 
 .xbutton:hover{
+    color: red;
     cursor: pointer;
 }
 .pt{

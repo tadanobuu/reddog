@@ -2,7 +2,10 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     maxPoint: 100,
-    gameCount: 1,
+    gameCount: 0,
+    winCount: 0,
+    loseCount: 0,
+    resultHistory: []
 }
 
 const resultSlice = createSlice({
@@ -16,10 +19,23 @@ const resultSlice = createSlice({
             }
 
             state.gameCount += 1;
+        },
+        gameHistory: (state, action) => {
 
+            if( action.payload === "win" ){
+                state.winCount += 1;
+            }else if( action.payload === "lose" ){
+                state.loseCount += 1;
+            }
+
+            if( state.resultHistory.length === 10){
+                state.resultHistory = state.resultHistory.filter((result, index) => index !== 0);
+            }
+            state.resultHistory.push( [state.gameCount , action.payload] );
         }
+
     }
 })
 
-export const { gameResult } = resultSlice.actions;
+export const { gameResult, gameHistory } = resultSlice.actions;
 export default resultSlice.reducer;
